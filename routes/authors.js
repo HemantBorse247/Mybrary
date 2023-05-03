@@ -16,9 +16,8 @@ router.get('/', async (req, res) => {
         })
     }
     catch {
-        res.redirect('/')
+        res.redirect('/new')
     }
-    res.render('authors/index')
 })
 
 

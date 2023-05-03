@@ -1,1 +1,9 @@
-Hello Biches wass up kya bolti public
+,<h2>Recently Added</h2>
+<div>
+    <% books.forEach(book=> { %>
+        <p style="display: inline-block;">
+            <%= book.title%>
+        </p>
+        <img height="150" width="100" src="<%= book.coverImagePath %>">
+        <% }) %>
+</div>
